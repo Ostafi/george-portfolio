@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>George Ostaficiuc — Expert Business Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="avatar-wrapper">
+        <div class="avatar">GO</div>
+        <span class="status-dot"></span>
+      </div>
+      <div class="sidebar-name">George Ostaficiuc</div>
+      <div class="sidebar-title">Expert Business Analyst</div>
+      <div class="sidebar-location">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        București, România
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#about" class="nav-item active" data-section="about">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        About
+      </a>
+      <a href="#experience" class="nav-item" data-section="experience">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+        Experience
+      </a>
+      <a href="#skills" class="nav-item" data-section="skills">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Skills
+      </a>
+      <a href="#education" class="nav-item" data-section="education">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5"/></svg>
+        Education
+      </a>
+      <a href="#certifications" class="nav-item" data-section="certifications">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+        Certifications
+      </a>
+      <a href="#projects" class="nav-item" data-section="projects">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        Projects
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="https://www.linkedin.com/in/george-ostaficiuc/" target="_blank" class="linkedin-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn Profile
+      </a>
+    </div>
+  </aside>
+
+  <!-- Mobile menu toggle -->
+  <button class="menu-toggle" id="menuToggle">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="section-header">
+        <span class="section-tag">Overview</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-value" data-count="9">0</div>
+          <div class="stat-label">Years Experience</div>
+          <div class="stat-sub">2015 – present</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" data-count="3">0</div>
+          <div class="stat-label">Companies</div>
+          <div class="stat-sub">Regina Maria · HEINEKEN · Arcadis</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" data-count="33">0</div>
+          <div class="stat-label">LinkedIn Skills</div>
+          <div class="stat-sub">Endorsed on LinkedIn</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" data-count="304">0</div>
+          <div class="stat-label">Connections</div>
+          <div class="stat-sub">Professional network</div>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-quote">"</div>
+        <p class="about-text">
+          I'm passionate about growth and learning, always striving to enhance my skills and deliver
+          outstanding results. I approach challenges with dedication and a proactive mindset, and I enjoy
+          bringing a touch of humor to make teamwork both productive and enjoyable.
+        </p>
+        <div class="about-tags">
+          <span class="tag">Data Analytics</span>
+          <span class="tag">Business Intelligence</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Qlik Sense</span>
+          <span class="tag">Python</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="section-header">
+        <span class="section-tag">Career</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-logo regina">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <div class="timeline-meta">
+                <h3 class="job-title">Expert Business Analyst</h3>
+                <div class="company-name">Regina Maria, Reteaua de sanatate</div>
+                <div class="job-details">
+                  <span class="badge current-badge">Current</span>
+                  <span class="job-period">Nov 2021 – Present · 4 yrs 7 mos</span>
+                  <span class="job-location">București, România</span>
+                </div>
+              </div>
+            </div>
+            <ul class="job-bullets">
+              <li>Delivered data-driven insights by building scalable dashboards in Qlik and Power BI</li>
+              <li>Translated business requirements into analytical solutions that improved operational efficiency</li>
+              <li>Bridged communication between technical teams and business stakeholders</li>
+            </ul>
+            <div class="job-skills">
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Qlik Sense</span>
+              <span class="skill-tag">Project Management</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Data Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item company-group">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="company-banner heineken">
+              <div class="company-logo heineken-logo">H</div>
+              <div>
+                <div class="company-group-name">The HEINEKEN Company</div>
+                <div class="company-group-sub">Full-time · 4 yrs 8 mos</div>
+              </div>
+            </div>
+
+            <div class="sub-role">
+              <div class="sub-role-header">
+                <h3 class="job-title">Data Scientist</h3>
+                <span class="job-period">Apr 2020 – Nov 2021 · 1 yr 8 mos · București, România</span>
+              </div>
+              <ul class="job-bullets">
+                <li>Utilized Python for Data Science and Machine Learning applications</li>
+                <li>Developed and maintained dashboards in Qlik Sense and Power BI</li>
+              </ul>
+              <div class="job-skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Qlik Sense</span>
+                <span class="skill-tag">Power BI</span>
+              </div>
+            </div>
+
+            <div class="sub-role">
+              <div class="sub-role-header">
+                <h3 class="job-title">Business Information Manager — Data Analytics & Reporting</h3>
+                <span class="job-period">Apr 2018 – Mar 2020 · 2 yrs · București, România</span>
+              </div>
+              <ul class="job-bullets">
+                <li>Administered the Qlik Sense Enterprise platform, ensuring optimal performance and security</li>
+                <li>Supported business units in implementing new analytics projects across departments</li>
+              </ul>
+              <div class="job-skills">
+                <span class="skill-tag">Qlik Sense Enterprise</span>
+                <span class="skill-tag">Project Management</span>
+                <span class="skill-tag">Business Intelligence</span>
+              </div>
+            </div>
+
+            <div class="sub-role">
+              <div class="sub-role-header">
+                <h3 class="job-title">Management Trainee</h3>
+                <span class="job-period">Apr 2017 – Mar 2018 · 1 yr · București, România</span>
+              </div>
+              <ul class="job-bullets">
+                <li>Gained comprehensive business knowledge by rotating through IT, Sales, Supply Chain, and HR</li>
+              </ul>
+              <div class="job-skills">
+                <span class="skill-tag">Business Operations</span>
+                <span class="skill-tag">Cross-functional</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-logo arcadis">A</div>
+              <div class="timeline-meta">
+                <h3 class="job-title">Roads & Sewer Design Engineer</h3>
+                <div class="company-name">Arcadis</div>
+                <div class="job-details">
+                  <span class="job-period">Nov 2015 – Mar 2017 · 1 yr 5 mos</span>
+                  <span class="job-location">Zona metropolitană Iași</span>
+                </div>
+              </div>
+            </div>
+            <ul class="job-bullets">
+              <li>Engaged in all stages of the design process, from concept development to final as-built documentation</li>
+              <li>Provided technical support and solutions throughout project execution</li>
+            </ul>
+            <div class="job-skills">
+              <span class="skill-tag">AutoCAD</span>
+              <span class="skill-tag">Civil Engineering</span>
+              <span class="skill-tag">Technical Design</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Business Intelligence</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Power BI</span><span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Qlik Sense</span><span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Data Visualization</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Dashboard Design</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Data Science & AI</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Python</span><span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Machine Learning</span><span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>AI Foundations</span><span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Data Analysis</span><span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Business & Management</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Project Management</span><span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Problem Solving</span><span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Stakeholder Communication</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Written Communication</span><span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Technical & Other</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>SQL</span><span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>AutoCAD</span><span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>English</span><span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Romanian</span><span class="skill-pct">100%</span>
+              </div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="section-header">
+        <span class="section-tag">Academic</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">M</div>
+          <div class="edu-content">
+            <div class="edu-degree">Master's in Engineering</div>
+            <div class="edu-field">Construction Engineering</div>
+            <div class="edu-school">Facultatea de Construcții și Instalații, Iași</div>
+            <div class="edu-period">2015 – 2017</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">B</div>
+          <div class="edu-content">
+            <div class="edu-degree">Bachelor's in Engineering</div>
+            <div class="edu-field">Railways, Roads and Bridges</div>
+            <div class="edu-school">Facultatea de Construcții și Instalații, Iași</div>
+            <div class="edu-period">2011 – 2015</div>
+            <div class="edu-activities">Voluntariat la ASAFCI</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <div class="cert-content">
+            <div class="cert-name">Power BI for Data Modeling and Dashboard Development</div>
+            <div class="cert-issuer">NobleProg</div>
+            <div class="cert-meta">
+              <span class="cert-date">Issued Nov 2025</span>
+              <span class="cert-id">ID: 839035</span>
+            </div>
+          </div>
+          <div class="cert-badge new-badge">2025</div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon ai">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="cert-content">
+            <div class="cert-name">101 — AI Foundation</div>
+            <div class="cert-issuer">GAIN® — The Global AI Network</div>
+            <div class="cert-meta">
+              <span class="cert-date">Issued May 2020</span>
+            </div>
+          </div>
+          <div class="cert-badge ai-badge">AI</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <div class="project-card">
+        <div class="project-accent"></div>
+        <div class="project-content">
+          <div class="project-header">
+            <h3 class="project-title">Design & Construct 2015 Istanbul</h3>
+            <span class="project-period">Apr 2015 – Present</span>
+          </div>
+          <p class="project-desc">
+            Long-running construction design project associated with Facultatea de Construcții și Instalații, Iași.
+            Encompasses design, planning, and engineering documentation.
+          </p>
+          <div class="project-tags">
+            <span class="skill-tag">Civil Engineering</span>
+            <span class="skill-tag">Construction Design</span>
+            <span class="skill-tag">AutoCAD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        Built with care · George Ostaficiuc © 2025 ·
+        <a href="https://www.linkedin.com/in/george-ostaficiuc/" target="_blank">LinkedIn</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
